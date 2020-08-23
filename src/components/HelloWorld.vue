@@ -1,21 +1,19 @@
 <template>
   <div class="hello">
+    <br />
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-    </p>
-    
+    <br />
+    <br />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 nghdtfkiuyjdthrsdtyuilhgkujyhtdjykuhljk
 <!-- Add "scoped" attribute to limit CSS to this component only -->
