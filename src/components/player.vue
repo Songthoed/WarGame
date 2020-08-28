@@ -39,10 +39,10 @@
     <div id="result">
       <div v-if="mhp==0 || php==0">
         <div v-if="mhp <php">       
-        player win
+        Player win
     </div>
     <div v-else-if="php < mhp">
-        monster win
+        Monster win
     </div>
     <div v-else-if="mhp==php">
         Draw
